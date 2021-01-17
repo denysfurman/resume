@@ -1,10 +1,11 @@
 <template>
-$END$
+  <h2>{{title}}</h2>
 </template>
 
 <script>
 export default {
-name: "SubTitle"
+  name: "SubTitle",
+  props: ['title']
 }
 </script>
 

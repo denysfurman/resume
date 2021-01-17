@@ -1,10 +1,11 @@
 <template>
-$END$
+  <p>{{text}}</p>
 </template>
 
 <script>
 export default {
-name: "Text"
+  name: "Text",
+  props: ['text']
 }
 </script>
 

@@ -1,10 +1,14 @@
 <template>
-$END$
+  <div class="avatar">
+    <img :src="url">
+  </div>
 </template>
 
 <script>
 export default {
-name: "Avatar"
+  name: "Avatar",
+  props: ['url']
+
 }
 </script>
 
